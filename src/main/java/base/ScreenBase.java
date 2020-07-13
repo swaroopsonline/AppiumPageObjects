@@ -13,6 +13,7 @@ public class ScreenBase {
 	public static AppiumDriver<MobileElement> driver;
 	public WebDriverWait wait;
 	
+	//ScreenBase constructor
 	public ScreenBase(AppiumDriver<MobileElement> driver) {
 		
 		this.driver = driver;
