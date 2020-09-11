@@ -1,4 +1,4 @@
-package screens;
+	package screens;
 
 import java.util.List;
 
@@ -38,7 +38,7 @@ public class ChooseTopicsScreen extends ScreenBase {
 		for(int i=0; i<topicsCount; i++) {
 			
 			topic.get(i).click();
-			ExtentListeners.testReport.get().log(Status.INFO, "Selecting the value "+topic.get(i).getText()+"\n");
+			//ExtentListeners.testReport.get().log(Status.INFO, "Selecting the value "+topic.get(i).getText()+"\n");
 		}	
 		
 		return this;

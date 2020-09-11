@@ -16,7 +16,7 @@ public class AppiumServer {
 
 		 service = AppiumDriverLocalService.buildService(
 				new AppiumServiceBuilder().usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
-				.withAppiumJS(new File("C:\\Users\\swaro\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+				.withAppiumJS(new File("C:\\Users\\Smita\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
 				.withLogFile(new File(System.getProperty("user.dir")+"\\src\\test\\resources\\logs\\log.txt"))
 				.withArgument(GeneralServerFlag.LOCAL_TIMEZONE));
 				service.start();

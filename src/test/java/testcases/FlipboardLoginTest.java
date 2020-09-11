@@ -23,7 +23,9 @@ public class FlipboardLoginTest extends TestBase {
 	}
 	
 	@Test(priority=1)
-	public void validateGetStartedButton() {
+	public void validateGetStartedButton() throws InterruptedException {
+		
+		Thread.sleep(3000);
 		
 		login.clickGetStartedBtn();
 	}
@@ -31,7 +33,7 @@ public class FlipboardLoginTest extends TestBase {
 	@Test(priority=2)
 	public void chooseTopicsTest() {
 		
-		topicScreen.chooseTopics(4).clickContinue();
+		topicScreen.chooseTopics(3).clickContinue();
 		//topicScreen.clickContinue();
 	}
 	

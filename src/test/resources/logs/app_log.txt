@@ -1,4 +1,4 @@
-INFO    2020-06-27 23:09:22,200 [main] base.TestBase  - Appium Server started
-INFO    2020-06-27 23:09:22,200 [main] base.TestBase  - Android_flipboard.properties properties file loaded !!!
-INFO    2020-06-27 23:09:59,489 [main] base.TestBase  - Test case execution completed
-INFO    2020-06-27 23:09:59,489 [main] base.TestBase  - Appium Server stopped!!!
+INFO    2020-09-10 15:19:11,339 [main] base.TestBase  - Appium Server started
+INFO    2020-09-10 15:19:11,340 [main] base.TestBase  - Android_flipboard.properties properties file loaded !!!
+INFO    2020-09-10 15:19:52,081 [main] base.TestBase  - Test case execution completed
+INFO    2020-09-10 15:19:52,133 [main] base.TestBase  - Appium Server stopped!!!

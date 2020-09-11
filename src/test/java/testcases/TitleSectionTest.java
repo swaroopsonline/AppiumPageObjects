@@ -27,6 +27,8 @@ public class TitleSectionTest extends TestBase {
 	@Test
 	public void validateTitle() throws InterruptedException {
 		
+		Thread.sleep(3000);
+		
 		login.clickGetStartedBtn().chooseTopics(4).clickContinue().skipLogin();
 		home.gotoTitleSection(2);
 		//takeScreenshot();
